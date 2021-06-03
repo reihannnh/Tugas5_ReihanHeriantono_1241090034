@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/design_default_color_primary_dark">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/design_default_color_background">
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID : "
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:id="@+id/tv_item_id"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jhonson Morgan"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birthday : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:id="@+id/tv_item_birthday"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DD/MM/YYYY"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:id="@+id/tv_item_address"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jl. Puluhdadi No. 409B Yogyakarta"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:id="@+id/tv_item_phone"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0123456789"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/design_default_color_primary"/>
+
+            <TextView
+                android:id="@+id/tv_item_email"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="example@mail.com"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/design_default_color_primary"
+                android:textColorHint="@color/design_default_color_primary" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
